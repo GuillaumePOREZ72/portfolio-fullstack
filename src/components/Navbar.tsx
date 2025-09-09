@@ -11,19 +11,19 @@ export default function Navbar() {
       </a>
       <ul className="hidden md:flex space-x-4">
         <li>
-          <a href="#" 
+          <a href="#Home" 
           className="btn btn-sm btn-ghost">
             Accueil
           </a>
-          <a href="#" 
+          <a href="#About" 
           className="btn btn-sm btn-ghost">
             À propos
           </a>
-          <a href="#" 
+          <a href="#Experiences" 
           className="btn btn-sm btn-ghost">
             Mes expériences
           </a>
-          <a href="#" 
+          <a href="#Projects" 
           className="btn btn-sm btn-ghost">
             Mes projets
           </a>

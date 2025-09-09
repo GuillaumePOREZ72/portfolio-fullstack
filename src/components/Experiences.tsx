@@ -8,6 +8,12 @@ import imgTAILWIND from "../assets/techno/tailwind.png";
 import imgTYPE from "../assets/techno/typescript.svg";
 import imgNEXT from "../assets/techno/next-js.webp";
 import imgPRISMA from "../assets/techno/prisma.webp";
+import imgMONGO from "../assets/techno/mongo.png";
+import imgPYTHON from "../assets/techno/python.png";
+import imgFASTAPI from "../assets/techno/fastapi.png";
+import imgDOCKER from "../assets/techno/docker.png";
+import imgNEST from "../assets/techno/nestjs.png";
+import imgPOSTGRES from "../assets/techno/postgres.png";
 
 import google from "../assets/companies/google.png";
 import meta from "../assets/companies/meta.webp";
@@ -23,6 +29,13 @@ const skills = [
   { id: 7, name: "Typescript", image: imgTYPE },
   { id: 8, name: "Next.js", image: imgNEXT },
   { id: 9, name: "Prisma", image: imgPRISMA },
+  { id: 10, name: "MongoDB", image: imgMONGO},
+  { id: 11, name: "Python", image: imgPYTHON},
+  { id: 12, name: "FastAPI", image: imgFASTAPI},
+  { id: 13, name: "Docker", image: imgDOCKER},
+  { id: 14, name: "NestJS", image: imgNEST},
+  { id: 15, name: "PostgreSQL", image: imgPOSTGRES},
+
 ];
 
 const experiences = [

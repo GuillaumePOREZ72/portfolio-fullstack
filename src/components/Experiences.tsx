@@ -29,13 +29,12 @@ const skills = [
   { id: 7, name: "Typescript", image: imgTYPE },
   { id: 8, name: "Next.js", image: imgNEXT },
   { id: 9, name: "Prisma", image: imgPRISMA },
-  { id: 10, name: "MongoDB", image: imgMONGO},
-  { id: 11, name: "Python", image: imgPYTHON},
-  { id: 12, name: "FastAPI", image: imgFASTAPI},
-  { id: 13, name: "Docker", image: imgDOCKER},
-  { id: 14, name: "NestJS", image: imgNEST},
-  { id: 15, name: "PostgreSQL", image: imgPOSTGRES},
-
+  { id: 10, name: "MongoDB", image: imgMONGO },
+  { id: 11, name: "Python", image: imgPYTHON },
+  { id: 12, name: "FastAPI", image: imgFASTAPI },
+  { id: 13, name: "Docker", image: imgDOCKER },
+  { id: 14, name: "NestJS", image: imgNEST },
+  { id: 15, name: "PostgreSQL", image: imgPOSTGRES },
 ];
 
 const experiences = [
@@ -78,25 +77,32 @@ export default function Experiences() {
   return (
     <div id="Experiences">
       <Title title="Experiences" />
-      <div className="flex flex-col-reverse md:flex-row justify-center items-center">
-        <div className="flex flex-wrap gap-4 justify-center items-center md:w-1/3 mt-4 md:mt-0">
-          {skills.map((skill) => (
-            <div
-              key={skill.id}
-              className="flex justify-center items-center flex-col"
-            >
-              <div className="w-24 h-24 p-2 rounded-full border-2 border-accent">
-                <img
-                  src={skill.image}
-                  alt={skill.name}
-                  className="object-cover rounded-full h-full w-full"
-                />
+      <div className="flex flex-col-reverse md:flex-row justify-center items-center gap-8">
+        {/* Section Skills avec layout responsive */}
+        <div className="flex-shrink-0 mt-4 md:mt-0 flex justify-center">
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-3 gap-4 justify-items-center max-w-xs md:max-w-sm lg:max-w-md xl:max-w-xs">
+            {skills.map((skill) => (
+              <div
+                key={skill.id}
+                className="flex justify-center items-center flex-col"
+              >
+                <div className="w-16 h-16 md:w-20 md:h-20 p-2 rounded-full border-2 border-accent">
+                  <img
+                    src={skill.image}
+                    alt={skill.name}
+                    className="object-cover rounded-full h-full w-full"
+                  />
+                </div>
+                <span className="mt-2 text-xs md:text-sm text-center leading-tight">
+                  {skill.name}
+                </span>
               </div>
-              <span className="mt-2 text-sm">{skill.name}</span>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-        <div className="md:ml-4 flex flex-col space-y-4">
+
+        {/* Section Expériences */}
+        <div className="flex-1 flex flex-col space-y-4 min-w-0">
           {experiences.map((experience) => (
             <div
               key={experience.id}
@@ -106,7 +112,7 @@ export default function Experiences() {
                 <img
                   src={experience.image}
                   alt={experience.company}
-                  className="object-cover h-10 w-10 "
+                  className="object-cover h-10 w-10"
                 />
                 <div className="ml-4">
                   <h1 className="text-xl text-accent font-bold">

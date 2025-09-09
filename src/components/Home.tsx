@@ -6,7 +6,7 @@ export default function Home() {
     <div className="flex flex-col-reverse md:flex-row justitfy-center items-center md:my-32 my-10" id="Home">
       <div className="flex flex-col">
         <h1 className="text-5xl md:text-6xl font-bold text-center md:text-left mt-4 md:mt-0">
-          Bonjour, <br /> je suis <span className="text-accent">GPDev</span>
+          Bonjour, <br /> je suis <span className="text-accent">Guillaume</span>
         </h1>
         <p className="my-4 text-md text-center md:text-left">
           Développeur web fullstack, je suis passionné par la création de sites
@@ -18,14 +18,11 @@ export default function Home() {
           Contactez-moi
         </a>
       </div>
-      <div className="md:ml-60">
+      <div className="md:ml-10 lg:ml-10 xl:ml-50">
         <img
           src={img}
           alt=""
-          className="w-96 h-96 object-cover border-8 border-accent shadow-xl"
-          style={{
-            borderRadius: "30% 70% 70% 30% / 67% 62% 38% 33%",
-          }}
+          className="w-64 md:w-96 md:h-60 object-cover border-8 border-accent shadow-xl portrait-shape rounded-full"
         />
       </div>
     </div>

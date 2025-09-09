@@ -6,3 +6,21 @@
 html {
     scroll-behavior: smooth;
 }
+
+.portrait-shape {
+  border-radius: 30% 70% 70% 30% / 67% 62% 38% 33%;
+}
+
+/* Responsive border-radius pour tablettes */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .portrait-shape {
+    border-radius: 30% 70% 70% 30% / 67% 62% 38% 33%;
+  }
+}
+
+/* Pour les petits écrans */
+@media (max-width: 767px) {
+  .portrait-shape {
+    border-radius: 30% 70% 70% 30% / 67% 62% 38% 33%;
+  }
+}

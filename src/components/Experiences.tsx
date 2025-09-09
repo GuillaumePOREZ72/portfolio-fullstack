@@ -80,7 +80,7 @@ export default function Experiences() {
       <div className="flex flex-col-reverse md:flex-row justify-center items-center gap-8">
         {/* Section Skills avec layout responsive */}
         <div className="flex-shrink-0 mt-4 md:mt-0 flex justify-center">
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-3 gap-4 justify-items-center max-w-xs md:max-w-sm lg:max-w-md xl:max-w-xs">
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-3 gap-4 justify-items-center max-w-xs md:max-w-xs lg:max-w-xs xl:max-w-sm 2xl:max-w-xs">
             {skills.map((skill) => (
               <div
                 key={skill.id}

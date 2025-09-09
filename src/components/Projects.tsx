@@ -75,20 +75,20 @@ export default function Projects() {
   return (
     <div className="mt-10" id="Projects">
       <Title title="Mes Projets" />
-      <div className="grid md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {projects.map((project) => (
           <div
             key={project.id}
-            className="bg-base-300 p-5 h-fit rounded-xl shadow-lg"
+            className="bg-base-300 p-5 rounded-xl shadow-lg flex flex-col h-full"
           >
             <img 
               className="w-full h-56 object-cover rounded-xl"
               src={project.image} 
               alt={project.title} 
               />
-              <div>
+              <div className="flex-1 flex flex-col">
                 <h1 className="my-2 font-bold">{project.title}</h1>
-                <p className="text-sm">{project.description}</p>
+                <p className="text-sm flex-1">{project.description}</p>
               </div>
               <div className="flex flex-wrap gap-2 my-3">
                 {project.technologies.map((tech) => (
@@ -98,7 +98,7 @@ export default function Projects() {
                 ))
                 }
               </div>
-              <div className="flex">
+              <div className="flex mt-auto">
                 <a href={project.demoLink} className="btn btn-accent w-2/3">
                     Demo
                     <Video className="w-4" />

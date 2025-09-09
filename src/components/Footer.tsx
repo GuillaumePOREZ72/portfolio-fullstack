@@ -1,8 +1,8 @@
-import { Rocket, Facebook, Linkedin, Github } from "lucide-react";
+import { Rocket, Linkedin, Github, Twitter } from "lucide-react";
 
 export default function Footer() {
   return (
-    <div>
+    <div id="Footer">
       <footer className="footer footer-horizontal footer-center p-10">
         <aside>
           <Rocket className="h-10 w-10" />
@@ -29,11 +29,11 @@ export default function Footer() {
               <Linkedin className="w-6 h-6 text-current" />
             </a>
             <a
-              href="https://facebook.com"
+              href="https://x.com/GuillaumePorez"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Facebook className="w-6 h-6 text-current" />
+              <Twitter className="w-6 h-6 text-current" />
             </a>
           </div>
         </nav>

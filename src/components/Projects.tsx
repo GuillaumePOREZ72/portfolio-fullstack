@@ -4,8 +4,6 @@ import img1 from "../assets/projects/1.png";
 import img2 from "../assets/projects/2.png";
 import img3 from "../assets/projects/3.png";
 import img4 from "../assets/projects/4.png";
-import img5 from "../assets/projects/5.png";
-import img6 from "../assets/projects/6.png";
 import { Github, Video } from "lucide-react";
 
 const projects = [
@@ -49,33 +47,13 @@ const projects = [
     repoLink: "#",
     image: img4,
   },
-  {
-    id: 5,
-    title: "Système de réservation de salles",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae magni deserunt debitis recusandae ab harum totam, eum facilis et ratione officia ut inventore aspernatur",
-    technologies: ["Next.js", "MongoDB", "Chakra UI"],
-    demoLink: "#",
-    repoLink: "#",
-    image: img5,
-  },
-  {
-    id: 6,
-    title: "Analyseur de sentiment",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae magni deserunt debitis recusandae ab harum totam, eum facilis et ratione officia ut inventore aspernatur",
-    technologies: ["Python", "Flask", "NLTK"],
-    demoLink: "#",
-    repoLink: "#",
-    image: img6,
-  },
 ];
 
 export default function Projects() {
   return (
     <div className="mt-10" id="Projects">
       <Title title="Mes Projets" />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
         {projects.map((project) => (
           <div
             key={project.id}

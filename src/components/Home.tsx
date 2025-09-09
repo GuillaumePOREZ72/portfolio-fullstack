@@ -1,5 +1,5 @@
 import { Mail } from "lucide-react";
-import img from "../assets/portrait_officiel.png";
+import img from "../assets/portrait_bw.jpeg";
 
 export default function Home() {
   return (

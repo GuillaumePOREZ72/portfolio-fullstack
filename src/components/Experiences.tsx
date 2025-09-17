@@ -10,7 +10,7 @@ import imgNEXT from "../assets/techno/next-js.webp";
 import imgPRISMA from "../assets/techno/prisma.webp";
 import imgMONGO from "../assets/techno/mongo.png";
 import imgPYTHON from "../assets/techno/python.png";
-import imgFASTAPI from "../assets/techno/fastapi.png";
+import imgFASTAPI from "../assets/techno/Fastapi.png";
 import imgDOCKER from "../assets/techno/docker.png";
 import imgNEST from "../assets/techno/nestjs.png";
 import imgPOSTGRES from "../assets/techno/postgres.png";

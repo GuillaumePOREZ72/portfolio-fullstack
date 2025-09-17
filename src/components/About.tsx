@@ -1,6 +1,7 @@
 import Title from "./Title";
 import img from "../assets/portrait_officiel.png";
 import { LetterText, CalendarSync, Code } from "lucide-react";
+import VideoThumbnail from "./VideoThumbnail";
 
 const aboutSections = [
   {
@@ -27,16 +28,32 @@ const aboutSections = [
 ];
 
 export default function About() {
+  const videoId = "bef9e712dd7642b4991ba530025fbf07";
   return (
     <div className="bg-base-300 p-10 mb-10 md:mb-32" id="About">
       <Title title="À propos" />
-      <div className="md:h-screen flex justify-center items-center">
-        <div className="hidden md:block">
-          <img src={img} alt="" className="w-96 object-cover rounded-xl" />
+      <div className="md:h-screen flex flex-col md:flex-row justify-center items-center gap-8">
+        <div className="flex flex-col items-center gap-4 md:mr-6">
+          <img
+            src={img}
+            alt="Portrait"
+            className="w-56 md:w-72 object-cover rounded-xl hidden md:block"
+          />
+          <VideoThumbnail
+            videoId={videoId}
+            clickable={false}
+            className="w-40 md:w-48"
+          />
+          <p className="text-xs text-base-content/60 text-center">
+            Regardez ma présentation vidéo.
+          </p>
         </div>
-        <div className="md:ml-4 space-y-4">
+        <div className="space-y-4">
           {aboutSections.map((section) => (
-            <div key={section.id} className="flex flex-col md:flex-row items-center bg-base-100 p-5 rounded-xl md:w-96 shadow-xl">
+            <div
+              key={section.id}
+              className="flex flex-col md:flex-row items-center bg-base-100 p-5 rounded-xl md:w-96 shadow-xl"
+            >
               <div className="mb-2 md:mb-1">{section.icon}</div>
               <div className="md:ml-4 text-center md:text-left">
                 <h2 className="text-xl font-bold mb-1">{section.title}</h2>

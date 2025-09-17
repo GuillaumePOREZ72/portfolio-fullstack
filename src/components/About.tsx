@@ -1,7 +1,8 @@
 import Title from "./Title";
 import img from "../assets/portrait_officiel.png";
 import { LetterText, CalendarSync, Code } from "lucide-react";
-import VideoThumbnail from "./VideoThumbnail";
+import VideoModal from "./VideoModal";
+import { useState } from "react";
 
 const aboutSections = [
   {
@@ -29,6 +30,7 @@ const aboutSections = [
 
 export default function About() {
   const videoId = "bef9e712dd7642b4991ba530025fbf07";
+  const [openVideo, setOpenVideo] = useState(false);
   return (
     <div className="bg-base-300 p-10 mb-10 md:mb-32" id="About">
       <Title title="À propos" />
@@ -39,14 +41,17 @@ export default function About() {
             alt="Portrait"
             className="w-56 md:w-72 object-cover rounded-xl hidden md:block"
           />
-          <VideoThumbnail
-            videoId={videoId}
-            clickable={false}
-            className="w-40 md:w-48"
-          />
-          <p className="text-xs text-base-content/60 text-center">
-            Regardez ma présentation vidéo.
-          </p>
+          <div className="flex flex-col items-center gap-2">
+            <div className="flex items-center gap-4">
+              <button
+                type="button"
+                onClick={() => setOpenVideo(true)}
+                className="btn btn-accent btn-sm"
+              >
+                Voir la vidéo de présentation
+              </button>
+            </div>
+          </div>
         </div>
         <div className="space-y-4">
           {aboutSections.map((section) => (
@@ -63,6 +68,12 @@ export default function About() {
           ))}
         </div>
       </div>
+      <VideoModal
+        open={openVideo}
+        onClose={() => setOpenVideo(false)}
+        videoId={videoId}
+        title="Présentation"
+      />
     </div>
   );
 }

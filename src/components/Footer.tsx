@@ -18,7 +18,7 @@ export default function Footer() {
               href="https://github.com/GuillaumePOREZ72"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(17, 194, 170,0.6),0_0_40px_rgba(17, 194, 170,0.4)]"
+              className="text-2xl transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_currentColor,0_0_40px_currentColor] hover:text-blue-400 hover:brightness-150"
             >
               <Github className="w-6 h-6" />
             </a>
@@ -26,7 +26,7 @@ export default function Footer() {
               href="https://linkedin.com/in/guillaumeporez"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(17, 194, 170,0.6),0_0_40px_rgba(17, 194, 170,0.4)] "
+              className="text-2xl transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_currentColor,0_0_40px_currentColor] hover:text-blue-400 hover:brightness-150"
             >
               <Linkedin className="w-6 h-6" />
             </a>
@@ -34,7 +34,7 @@ export default function Footer() {
               href="https://x.com/GuillaumePorez"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(17, 194, 170,0.6),0_0_40px_rgba(17, 194, 170,0.4)]"
+              className="text-2xl transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_currentColor,0_0_40px_currentColor] hover:text-blue-400 hover:brightness-150"
             >
               <Twitter className="w-6 h-6" />
             </a>

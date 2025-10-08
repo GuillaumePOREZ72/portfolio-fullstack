@@ -17,7 +17,7 @@ export default function Home() {
           services.
         </p>
         <a
-          href="mailto:guillaumeporez@orange.fr?subject=Contact via portfolio&body=Bonjour,je vous contacte pour..."
+          href="mailto:gpdev@ik.me?subject=Contact via portfolio&body=Bonjour,je vous contacte pour..."
           className="btn btn-accent md:w-fit rounded-full"
           title="Cliquez pour m'envoyer un mail"
         >

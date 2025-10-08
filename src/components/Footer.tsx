@@ -20,7 +20,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(17, 194, 170,0.6),0_0_40px_rgba(17, 194, 170,0.4)] hover:text-blue-400"
             >
-              <Github className="w-6 h-6 text-current" />
+              <Github className="w-6 h-6" />
             </a>
             <a
               href="https://linkedin.com/in/guillaumeporez"
@@ -28,7 +28,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(17, 194, 170,0.6),0_0_40px_rgba(17, 194, 170,0.4)] hover:text-blue-400"
             >
-              <Linkedin className="w-6 h-6 text-current" />
+              <Linkedin className="w-6 h-6" />
             </a>
             <a
               href="https://x.com/GuillaumePorez"
@@ -36,7 +36,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(17, 194, 170,0.6),0_0_40px_rgba(17, 194, 170,0.4)] hover:text-blue-400"
             >
-              <Twitter className="w-6 h-6 text-current" />
+              <Twitter className="w-6 h-6" />
             </a>
           </div>
         </nav>

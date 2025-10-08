@@ -34,7 +34,7 @@ export default function Footer() {
               href="https://x.com/GuillaumePorez"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(0, 212, 187,0.6),0_0_40px_rgba(0,212,187,0.4)] hover:text-blue-400"
+              className="transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(0, 209, 188,0.6),0_0_40px_rgba(0,209,188,0.4)] hover:text-blue-400"
             >
               <Twitter className="w-6 h-6 text-current" />
             </a>

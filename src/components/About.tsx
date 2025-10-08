@@ -46,7 +46,7 @@ export default function About() {
               <button
                 type="button"
                 onClick={() => setOpenVideo(true)}
-                className="btn btn-accent btn-sm"
+                className="btn btn-accent btn-sm rounded-full"
               >
                 Voir la vidéo de présentation
               </button>

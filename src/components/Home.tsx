@@ -18,7 +18,7 @@ export default function Home() {
         </p>
         <a
           href="mailto:guillaumeporez@orange.fr?subject=Contact via portfolio&body=Bonjour,je vous contacte pour..."
-          className="btn btn-accent md:w-fit"
+          className="btn btn-accent md:w-fit rounded-full"
           title="Cliquez pour m'envoyer un mail"
         >
           <Mail className="w-5 h-5" />

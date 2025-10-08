@@ -13,12 +13,12 @@ export default function Footer() {
           <p>Copyright © {new Date().getFullYear()} - Tous droits réservés</p>
         </aside>
         <nav>
-          <div className="grid grid-flow-col gap-4">
+          <div className="grid grid-flow-col gap-6">
             <a
               href="https://github.com/GuillaumePOREZ72"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_currentColor,0_0_40px_currentColor] hover:text-blue-400 hover:brightness-150"
+              className="transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_currentColor,0_0_40px_currentColor] hover:text-blue-400 hover:brightness-150"
             >
               <Github className="w-6 h-6" />
             </a>
@@ -26,7 +26,7 @@ export default function Footer() {
               href="https://linkedin.com/in/guillaumeporez"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_currentColor,0_0_40px_currentColor] hover:text-blue-400 hover:brightness-150"
+              className="transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_currentColor,0_0_40px_currentColor] hover:text-blue-400 hover:brightness-150"
             >
               <Linkedin className="w-6 h-6" />
             </a>
@@ -34,7 +34,7 @@ export default function Footer() {
               href="https://x.com/GuillaumePorez"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_currentColor,0_0_40px_currentColor] hover:text-blue-400 hover:brightness-150"
+              className="transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_currentColor,0_0_40px_currentColor] hover:text-blue-400 hover:brightness-150"
             >
               <Twitter className="w-6 h-6" />
             </a>

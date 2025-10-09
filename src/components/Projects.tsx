@@ -2,7 +2,7 @@ import Title from "./Title";
 
 import GlobeRates from "../assets/projects/GlobeRates.png";
 import CodeCoach from "../assets/projects/CodeCoach.png";
-import img3 from "../assets/projects/3.png";
+import CodeBridge from "../assets/projects/CodeBridge.png";
 import img4 from "../assets/projects/4.png";
 import { Github, Video } from "lucide-react";
 
@@ -29,13 +29,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "Portfolio interactif",
+    title: "CodeBridge",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae magni deserunt debitis recusandae ab harum totam, eum facilis et ratione officia ut inventore aspernatur",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    demoLink: "#",
-    repoLink: "#",
-    image: img3,
+      "CodeBridge est un puissant outil de conversion de code alimenté par l’IA, qui traduit de manière fluide le code entre différents langages de programmation. Construit avec React moderne et propulsé par les capacités d’intelligence artificielle de Puter, il offre une interface intuitive permettant aux développeurs de convertir rapidement leurs extraits de code.",
+    technologies: ["React", "Puter AI", "Tailwind CSS"],
+    demoLink: "https://codebridgeit.vercel.app/",
+    repoLink: "https://github.com/GuillaumePOREZ72/CodeBridge",
+    image: CodeBridge,
   },
   {
     id: 4,

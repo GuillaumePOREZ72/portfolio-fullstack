@@ -1,7 +1,7 @@
 import Title from "./Title";
 
 import GlobeRates from "../assets/projects/GlobeRates.png";
-import img2 from "../assets/projects/2.png";
+import CodeCoach from "../assets/projects/CodeCoach.png";
 import img3 from "../assets/projects/3.png";
 import img4 from "../assets/projects/4.png";
 import { Github, Video } from "lucide-react";
@@ -9,7 +9,7 @@ import { Github, Video } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Convertisseur de devises mondial GlobeRates",
+    title: "GlobeRates",
     description:
       "Une application web moderne pour explorer les pays du monde entier avec des informations détaillées, des cartes interactives et un convertisseur de devises.Interface moderne et responsive développée avec Next.js.",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
@@ -19,13 +19,13 @@ const projects = [
   },
   {
     id: 2,
-    title: "Plateforme E-commerce",
+    title: "CodeCoach",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae magni deserunt debitis recusandae ab harum totam, eum facilis et ratione officia ut inventore aspernatur",
-    technologies: ["Next.js", "TypeScript", "Prisma"],
-    demoLink: "#",
-    repoLink: "#",
-    image: img2,
+      "Un mini-entraîneur d'entretiens techniques en React qui génère des questions de type LeetCode via Puter AI, propose un éditeur de code intégré avec support multi-langages et donne un retour immédiat sur votre solution.",
+    technologies: ["React", "Puter AI", "Tailwind CSS"],
+    demoLink: "https://codecoach.vercel.app/",
+    repoLink: "https://github.com/GuillaumePOREZ72/CodeCoach",
+    image: CodeCoach,
   },
   {
     id: 3,

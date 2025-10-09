@@ -1,6 +1,6 @@
 import Title from "./Title";
 
-import img1 from "../assets/projects/1.png";
+import GlobeRates from "../assets/projects/GlobeRates.png";
 import img2 from "../assets/projects/2.png";
 import img3 from "../assets/projects/3.png";
 import img4 from "../assets/projects/4.png";
@@ -9,13 +9,13 @@ import { Github, Video } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Gestionnaire de tâches",
+    title: "Convertisseur de devises mondial GlobeRates",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae magni deserunt debitis recusandae ab harum totam, eum facilis et ratione officia ut inventore aspernatur",
-    technologies: ["React", "Node.js", "Tailwind CSS"],
-    demoLink: "#",
-    repoLink: "#",
-    image: img1,
+      "Une application web moderne pour explorer les pays du monde entier avec des informations détaillées, des cartes interactives et un convertisseur de devises.Interface moderne et responsive développée avec Next.js.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+    demoLink: "https://globerates.vercel.app/",
+    repoLink: "https://github.com/GuillaumePOREZ72/travel_assistant",
+    image: GlobeRates,
   },
   {
     id: 2,
@@ -70,7 +70,10 @@ export default function Projects() {
             </div>
             <div className="flex flex-wrap gap-2 my-3">
               {project.technologies.map((tech) => (
-                <span key={tech} className="badge badge-accent badge-sm rounded-full">
+                <span
+                  key={tech}
+                  className="badge badge-accent badge-sm rounded-full"
+                >
                   {tech}
                 </span>
               ))}
@@ -78,6 +81,8 @@ export default function Projects() {
             <div className="flex mt-auto">
               <a
                 href={project.demoLink}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-accent w-2/3 rounded-full"
               >
                 Demo
@@ -85,6 +90,8 @@ export default function Projects() {
               </a>
               <a
                 href={project.repoLink}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-neutral w-1/3 ml-2 rounded-full"
               >
                 <Github className="w-4" />

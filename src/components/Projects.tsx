@@ -3,7 +3,7 @@ import Title from "./Title";
 import GlobeRates from "../assets/projects/GlobeRates.png";
 import CodeCoach from "../assets/projects/CodeCoach.png";
 import CodeBridge from "../assets/projects/CodeBridge.png";
-import img4 from "../assets/projects/4.png";
+import InsightCV from "../assets/projects/InsightCV.png";
 import { Github, Video } from "lucide-react";
 
 const projects = [
@@ -39,13 +39,12 @@ const projects = [
   },
   {
     id: 4,
-    title: "Application de Chat en temps réel",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae magni deserunt debitis recusandae ab harum totam, eum facilis et ratione officia ut inventore aspernatur",
-    technologies: ["React", "Socket.io", "Express.js"],
-    demoLink: "#",
-    repoLink: "#",
-    image: img4,
+    title: "InsightCV",
+    description: "",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Puter AI"],
+    demoLink: "https://insight-cv.netlify.app/",
+    image: InsightCV,
+    image: insight-cv,
   },
 ];
 

@@ -44,7 +44,6 @@ const projects = [
     technologies: ["React", "TypeScript", "Tailwind CSS", "Puter AI"],
     demoLink: "https://insight-cv.netlify.app/",
     image: InsightCV,
-    image: insight-cv,
   },
 ];
 

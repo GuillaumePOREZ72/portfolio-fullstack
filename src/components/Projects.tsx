@@ -40,7 +40,8 @@ const projects = [
   {
     id: 4,
     title: "InsightCV",
-    description: "",
+    description:
+      "INsightCV est une application web React qui analyse automatiquement les CVs en PDF et fournit des recommandations détaillées via IA.",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Puter AI"],
     demoLink: "https://insight-cv.netlify.app/",
     image: InsightCV,

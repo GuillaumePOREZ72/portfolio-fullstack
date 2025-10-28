@@ -15,9 +15,9 @@ import imgDOCKER from "../assets/techno/docker.png";
 import imgNEST from "../assets/techno/nestjs.png";
 import imgPOSTGRES from "../assets/techno/postgres.png";
 
-import google from "../assets/companies/google.png";
-import meta from "../assets/companies/meta.webp";
-import amazon from "../assets/companies/amazon.png";
+import logoAlt from "../assets/companies/logoAlt.jpeg";
+import groupama from "../assets/companies/groupama.png";
+
 
 const skills = [
   { id: 1, name: "HTML", image: imgHTML },
@@ -40,36 +40,29 @@ const skills = [
 const experiences = [
   {
     id: 1,
-    role: "Software Engineer",
-    company: "Google",
-    period: "Sep 2022 - Présent",
+    role: "Développeur Web Fullstack",
+    company: "Alt",
+    period: "Decembre 2024 - Juillet 2025",
     description: [
-      "Développement de nouvelles fonctionnalités pour Google Maps.",
-      "Optimisation des performances de l'application.",
+      "Conception et développement d’une application de gestion d’événements et de bénévoles nommée Plan Easy.",
+      "Réalisation de User Story, maquette, choix et conception base de données",
+      "Intégration des maquettes, création de pages et de composants,  sécurisation des       formulaires côté front",
+      "Développement backend, création des routes API, gestion des autorisations",
+      "Mise en place de tests",
     ],
-    image: google,
+    image: logoAlt,
   },
   {
     id: 2,
-    role: "Fullstack Developer",
-    company: "Meta",
-    period: "Jan 2021 - Août 2022",
+    role: "Developer Web",
+    company: "Groupama Centre Manche",
+    period: "Juin 2024 - Août 2024",
     description: [
-      "Création d'une plateforme interne de collaboration pour les équipes.",
-      "Mise en place d'une architecture scalable et optimisée.",
+      " Participation à la conception d'un datamart de télémétrie et des tables associées sur un projet d'uniformatisation des notes de frais liées aux véhicules de service (traitement batch Python et SQL)",
+      "Participation à l'élaboration d'une nouvelle application interne (ASR) pour la gestion des notes de frais kilométriques.",
+      "Conception des fichiers XML récapitulatifs pour chaque salarié conducteur de voitures de service.",
     ],
-    image: meta,
-  },
-  {
-    id: 3,
-    role: "Frontend Developer",
-    company: "Amazon",
-    period: "Mai 2019 - Déc 2020",
-    description: [
-      "Développement d'une interface utilisateur pour Amazon Web Services.",
-      "Implémentation des tests unitaires et E2E.",
-    ],
-    image: amazon,
+    image: groupama,
   },
 ];
 
@@ -112,7 +105,7 @@ export default function Experiences() {
                 <img
                   src={experience.image}
                   alt={experience.company}
-                  className="object-cover h-10 w-10"
+                  className="object-cover h-14 w-14"
                 />
                 <div className="ml-4">
                   <h1 className="text-xl text-accent font-bold">

@@ -1,5 +1,5 @@
 import { Mail } from "lucide-react";
-import img from "../assets/portrait_bw.jpeg";
+import img from "../assets/portrait_entier.jpeg";
 
 export default function Home() {
   return (
@@ -29,7 +29,7 @@ export default function Home() {
         <img
           src={img}
           alt=""
-          className="w-64 md:w-96 md:h-60 object-cover border-8 border-accent shadow-xl portrait-shape rounded-full"
+          className="w-64 md:w-96 md:h-60 object-cover border-8 border-accent shadow-xl portrait-shape"
         />
       </div>
     </div>

@@ -10,7 +10,7 @@ html {
 .portrait-shape {
   width: 300px;
   height: 300px;
-  border-radius: 50%;
+  border-radius: 55% 45% 40% 75% / 70% 30% 50% 55%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   overflow: hidden;
@@ -21,7 +21,7 @@ html {
   .portrait-shape {
     width: 400px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 55% 45% 40% 75% / 70% 30% 50% 45%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     overflow: hidden;
@@ -33,7 +33,7 @@ html {
   .portrait-shape {
     width: 200px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 55% 45% 40% 75% / 70% 30% 50% 45%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     overflow: hidden;

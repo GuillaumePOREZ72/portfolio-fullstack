@@ -1,6 +1,6 @@
 import Title from "./Title";
 import img from "../assets/portrait_officiel.png";
-import { LetterText, CalendarSync, Code } from "lucide-react";
+import { LetterText, CalendarSync, Code, Play } from "lucide-react";
 import VideoModal from "./VideoModal";
 import { useState } from "react";
 
@@ -46,8 +46,9 @@ export default function About() {
               <button
                 type="button"
                 onClick={() => setOpenVideo(true)}
-                className="btn btn-accent btn-sm rounded-full"
+                className="btn btn-accent btn-sm rounded-full group"
               >
+                <Play className="w-4 h-4 transition-transform duration-300 group-hover:scale-125" />
                 Voir la vidéo de présentation
               </button>
             </div>

@@ -18,10 +18,10 @@ export default function Home() {
         </p>
         <a
           href="mailto:gpdev@ik.me?subject=Contact via portfolio&body=Bonjour,je vous contacte pour..."
-          className="btn btn-accent md:w-fit rounded-full"
+          className="btn btn-accent md:w-fit rounded-full group"
           title="Cliquez pour m'envoyer un mail"
         >
-          <Mail className="w-5 h-5" />
+          <Mail className="w-5 h-5 transition-transform duration-300 group-hover:scale-125" />
           Contactez-moi
         </a>
       </div>

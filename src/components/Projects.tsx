@@ -82,18 +82,18 @@ export default function Projects() {
                 href={project.demoLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-accent w-2/3 rounded-full"
+                className="btn btn-accent w-2/3 rounded-full group"
               >
                 Demo
-                <Video className="w-4" />
+                <Video className="w-4 transition-transform duration-300 group-hover:scale-125" />
               </a>
               <a
                 href={project.repoLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-neutral w-1/3 ml-2 rounded-full"
+                className="btn btn-neutral w-1/3 ml-2 rounded-full group"
               >
-                <Github className="w-4" />
+                <Github className="w-4 transition-transform duration-300 group-hover:scale-125" />
               </a>
             </div>
           </div>

@@ -18,7 +18,6 @@ import imgPOSTGRES from "../assets/techno/postgres.png";
 import logoAlt from "../assets/companies/logoAlt.jpeg";
 import groupama from "../assets/companies/groupama.png";
 
-
 const skills = [
   { id: 1, name: "HTML", image: imgHTML },
   { id: 2, name: "CSS", image: imgCSS },
@@ -77,7 +76,7 @@ export default function Experiences() {
             {skills.map((skill) => (
               <div
                 key={skill.id}
-                className="flex justify-center items-center flex-col"
+                className="flex justify-center items-center flex-col transition-transform duration-300 hover:scale-110"
               >
                 <div className="w-16 h-16 md:w-20 md:h-20 p-2 rounded-full border-2 border-accent">
                   <img
